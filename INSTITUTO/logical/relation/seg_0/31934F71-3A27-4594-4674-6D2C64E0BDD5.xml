@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_5" directorySegmentName="seg_0" id="31934F71-3A27-4594-4674-6D2C64E0BDD5">
+<createdBy>LAB346-PC11</createdBy>
+<createdTime>2025-08-14 13:58:58 UTC</createdTime>
+<ownerDesignName>INSTITUTO</ownerDesignName>
+<engineerTo>
+<item key="84A88612-3E57-1D6A-6AA7-590935DBCC8C" value="true"/>
+</engineerTo>
+<sourcePk>29A44849-68EF-A984-1B34-A5D01BB2E01D</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>cada estudiante DEBE tener una asignatura o muchas</nameOnSource>
+<nameOnTarget>cada ramo PUEDE tener alumnos</nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>25E314CA-CCB5-88A7-C5E5-409FB97886B8</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>A38035D9-264B-929C-11DD-13276B6CC1C2</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

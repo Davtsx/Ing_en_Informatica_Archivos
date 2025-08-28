@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_7" directorySegmentName="seg_0" id="69626219-44E2-DFB0-86CF-6FCFAC905BFC">
+<createdBy>LAB346-PC11</createdBy>
+<createdTime>2025-08-14 14:07:20 UTC</createdTime>
+<ownerDesignName>INSTITUTO</ownerDesignName>
+<engineerTo>
+<item key="84A88612-3E57-1D6A-6AA7-590935DBCC8C" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<nameOnSource>la sala tiene MUCHAS asignaturas</nameOnSource>
+<nameOnTarget>la asignatura tiene MUCHAS SALAS</nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>F806DC03-4946-2ED4-4AB8-0F7AB7F1FA3D</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>A38035D9-264B-929C-11DD-13276B6CC1C2</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
